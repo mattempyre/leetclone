@@ -20,7 +20,7 @@ const Login: React.FC<LoginProps> = () => {
           name="email"
           id="email"
           className="border-2 outline-none sm:text-sm rounded-lg focus:ring-brand-orange 
-          focus:border-brand-orange w-full p-2.5 border-gray-600 placeholder-gray-600 text-black"
+          focus:border-brand-orange w-full p-2.5 border-gray-400 placeholder-gray-600 text-black"
           placeholder="name@company.com"
         />
       </div>
@@ -36,7 +36,7 @@ const Login: React.FC<LoginProps> = () => {
           name="password"
           id="password"
           className="border-2 outline-none sm:text-sm rounded-lg focus:ring-brand-orange 
-          focus:border-brand-orange w-full p-2.5 border-gray-600 placeholder-gray-600 text-black"
+          focus:border-brand-orange w-full p-2.5 border-gray-400 placeholder-gray-600 text-black"
           placeholder="********"
         />
       </div>
@@ -53,7 +53,7 @@ const Login: React.FC<LoginProps> = () => {
         onClick={proModal.onClose}
         className="w-full text-white focus:ring-blue-300 font-medium rounded-lg bg-brand-orange py-2.5 text-center hover:bg-brand-orange-s transition-all duration-300 ease-in-out"
       >
-        Click to close
+        Sign In
       </button>
       <div className="text-sm font-medium text-gray-500">
         Not Registerd?{' '}

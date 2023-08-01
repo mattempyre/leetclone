@@ -4,6 +4,8 @@ import { IoClose } from 'react-icons/io5';
 import Login from './Login';
 import { Drawer } from 'vaul';
 import { useProModal } from '@/hooks/use-pro-modal';
+import Signup from './Signup';
+import ResetPassword from './ResetPassword';
 
 type AuthModalProps = {};
 
@@ -18,7 +20,7 @@ const AuthModal: React.FC<AuthModalProps> = () => {
           <div className="p-4 bg-white rounded-t-[10px] flex-1">
             <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300 mb-8" />
             <div className="max-w-md mx-auto">
-              <Login />
+              <ResetPassword />
             </div>
           </div>
         </Drawer.Content>
