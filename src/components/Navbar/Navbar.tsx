@@ -3,9 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import { useProModal } from '@/hooks/use-pro-modal';
 
-type NavbarProps = {
-  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
-};
+type NavbarProps = {};
 
 const Navbar: React.FC<NavbarProps> = () => {
   const proModal = useProModal();

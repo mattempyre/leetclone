@@ -22,7 +22,7 @@ module.exports = {
         'gray-8': 'rgb(38, 38, 38)',
         'dark-gray-8': 'rgb(219, 219, 219)',
         'brand-orange': 'rgb(255 161 22)',
-        'brand-orange-s': 'rgb(193, 122, 15)',
+        'brand-orange-s': 'rgb(240 161 18)',
         'dark-yellow': 'rgb(255 192 30)',
         'dark-pink': 'rgb(255 55 95)',
         olive: 'rgb(0, 184, 163)',
